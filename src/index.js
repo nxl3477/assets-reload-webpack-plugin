@@ -315,8 +315,8 @@ class AssetsReloadWebpackPlugin {
         inejctTarget.unshift(...injectScripts)
       })
 
-      // const minifyCoreJsContent = await minify(coreJsContent)
-      // coreJsContent = minifyCoreJsContent.code
+      const minifyCoreJsContent = await minify(coreJsContent)
+      coreJsContent = minifyCoreJsContent.code
 
       // 需要内联
       if( !this.inlineCore ) {

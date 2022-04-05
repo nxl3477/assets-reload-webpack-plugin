@@ -1,6 +1,6 @@
 {
   "name": "assets-reload-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "nxl3477",
   "description": "Front-end resource disaster recovery solutions",
   "main": "src/index.js",
@@ -13,12 +13,14 @@
     "webpack",
     "cdn",
     "error",
-    "plugin"
+    "plugin",
+    "assets",
+    "reload"
   ],
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/nxl3477/assets-reload-webpack-plugin"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"

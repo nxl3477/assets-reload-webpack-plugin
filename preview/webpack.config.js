@@ -29,7 +29,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new AssetsReloadWebpackPlugin({
       inject: 'body',
-      inlineCore: false,
+      inlineCore: true,
       inlineAssets: [
         ['https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min1.css', 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'],
         ['https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue2.js', 'https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.js'],
