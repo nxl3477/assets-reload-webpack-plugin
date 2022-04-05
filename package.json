@@ -1,0 +1,76 @@
+{
+  "name": "assets-reload-webpack-plugin",
+  "version": "1.0.0",
+  "author": "nxl3477",
+  "description": "Front-end resource disaster recovery solutions",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack --config preview/webpack.config.js",
+    "test": "jest",
+    "lint": "eslint \"src/**/*\""
+  },
+  "keywords": [
+    "webpack",
+    "cdn",
+    "error",
+    "plugin"
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "npm": "^6.0.0",
+    "webpack": ">4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "css-loader": "^5.2.7",
+    "cssnano": "^4.1.11",
+    "cz-conventional-changelog": "^3.3.0",
+    "dotenv-cli": "^4.0.0",
+    "eslint": "^7.24.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^36.0.7",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "html-webpack-plugin": "^3.2.0",
+    "husky": "^3.0.9",
+    "jest": "^27.0.6",
+    "jsdoc": "^3.6.7",
+    "less-loader": "^5.0.0",
+    "minami": "^1.2.3",
+    "mini-css-extract-plugin": "^1.3.9",
+    "npm-run-all": "^4.1.5",
+    "postcss-import": "^14.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.5.1",
+    "release-it": "^14.11.5",
+    "rimraf": "^3.0.2",
+    "terser": "^5.12.0",
+    "vconsole": "^3.12.1",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
+  },
+  "dependencies": {
+    "clean-webpack-plugin": "^2.0.2",
+    "virtual-module-webpack-plugin": "^0.4.1"
+  }
+}
