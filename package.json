@@ -1,6 +1,6 @@
 {
   "name": "assets-reload-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "nxl3477",
   "description": "Front-end resource disaster recovery solutions",
   "main": "src/index.js",

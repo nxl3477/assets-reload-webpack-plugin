@@ -2,11 +2,11 @@
 Front-end resource disaster recovery solutions
 
 
-Development ideas can be found in [this article]();
+Development ideas can be found in [this article](https://juejin.cn/post/7083306121733079054/);
 
 
 
-Currently only webpack > 4 is supported, if you need more versions please raise issues to me, I will deal with it as soon as possible.
+Currently only webpack >= 4 is supported, if you need more versions please raise issues to me, I will deal with it as soon as possible.
 
 # Install
 
